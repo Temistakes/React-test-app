@@ -25,6 +25,7 @@ const ProfileContainer = React.lazy(() =>
 
 class App extends React.Component {
     componentDidMount() {
+        console.log("f");
         this.props.initializedApp();
     }
 
