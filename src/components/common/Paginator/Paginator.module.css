@@ -1,0 +1,17 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pagination button {
+    padding: 20px;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+}
+
+.pagination button.selected {
+    background: greenyellow;
+}

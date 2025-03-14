@@ -1,0 +1,81 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.dialogs__items {
+    background: rgb(206, 206, 206);
+    padding: 1rem;
+}
+
+.dialogs__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dialogs__list-item {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dialogs__list-item-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dialog {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dialog__messages {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.message {
+    max-width: 20rem;
+    background: rgb(206, 206, 206);
+    padding: 1rem;
+}
+
+.message_me {
+    margin-left: auto;
+}
+
+.message__text {
+    font-size: 1.25rem;
+}
+
+.dialog__form {
+    display: flex;
+    gap: 1rem;
+}
+
+.dialog__input {
+    padding: 1rem;
+    background: rgb(214, 214, 214);
+    width: 70%;
+}
+
+.dialog__send-btn {
+    padding: 1rem;
+    background: rgb(17, 207, 255);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 30%;
+}

@@ -1,0 +1,23 @@
+.side-panel {
+    padding: 20px;
+    min-height: 500px;
+    grid-area: nav;
+    background: #dd4646;
+    color: white;
+}
+
+.side-panel__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.side-panel__link {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.activeLink {
+    color: rgb(0, 255, 191);
+}

@@ -1,0 +1,27 @@
+.profile__user-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile__user-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile__name {
+    font-size: 32px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.profile__desc {
+    font-size: 16px;
+    line-height: 120%;
+    text-align: justify;
+}
